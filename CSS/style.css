@@ -1,0 +1,95 @@
+nav {
+    height: 50px;
+    background-color: lightgrey;
+  }
+  .navItem {
+    background-color: dimgray;
+  }
+  a:visited {
+    color: whitesmoke;
+  }
+  a:hover {
+    color:midnightblue
+  }
+ body {
+    height: 100vh;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+  /* target the class of inline-block below */
+  p {
+    font-weight: 300;
+  }
+  ul {
+    display: inline-block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+}
+  .heroImg {
+    float: left;
+    padding: 15px
+  }
+  .inline-block {
+    display: inline-block;
+    padding: 15px;
+
+  }
+
+.columnLeft {
+    float: left;
+    width: 29%;
+    height: 100%;
+    background-color: lightcyan;
+}
+ .columnRight {
+    float: left;
+    width: 70%;
+    height: 100%;
+ }
+.topContent {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bottomMain {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+.bottomContent {
+    display: flex;
+    height: 1200px;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+}
+/*img {
+    height: 200px;
+    width: 150px;
+}*/
+
+
+
+  /* target the class of .left below */
+  .left {
+    height: 500px;
+    float: left;
+    background-color: lightblue;
+    width: 30%;
+    text-align: center;
+  }
+  /* target the class of .right below */
+  .right {
+    height: 500px;
+    float: left;
+    background-color: lightgreen;
+    width: 70%;
+    text-align: center;
+  }
